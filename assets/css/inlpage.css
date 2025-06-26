@@ -1,0 +1,34 @@
+form  {
+    background-color: #DDDDDD;
+    width: 350px; 
+    margin:auto;
+    text-align: center;
+    color: #F79B72;
+    border: 10px solid #2A4759;
+}
+
+body{
+   background-attachment: fixed;
+   
+}
+
+@media (max-width: 768px) {
+    body{
+        background-attachment: fixed;
+    }
+    
+    form{
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:1200px){
+    body{
+        background-attachment: fixed;
+    }
+
+    form{
+        margin-top: 330px;
+    }
+}
+0
